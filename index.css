@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img/casino-chips-dice-green-table_23-2147881287.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+h1 {
+    font-size: 48px; /* Increase font size for emphasis */
+    color: goldenrod; /* Set text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow for depth */
+    margin-bottom: 20px; /* Add margin for separation */
+}
+
+
+
+#message-el {
+    font-style: italic;
+    margin-bottom: 20px; /* Add margin for separation */
+}
+
+button {
+    color: #016f32;
+    width: 200px; /* Increase button width for better visibility */
+    background-color: goldenrod;
+    font-weight: bold;
+    padding: 10px; /* Increase padding for better appearance */
+    border: none;
+    border-radius: 5px; /* Increase border-radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer for better interactivity */
+    transition: background-color 0.3s; /* Add transition effect for smoother hover */
+}
+
+button:hover {
+    background-color: #ffd700; /* Change background color on hover */
+}
+
+
